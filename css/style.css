@@ -1,0 +1,13 @@
+.page-header{
+  margin: 0;
+  height: 350px;
+  background: #FF0000;
+  color: #fff;
+}
+
+.main-heading{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    font-size: 36px;
+  }
