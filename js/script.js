@@ -11,3 +11,6 @@ var printNumbers = function(userNumber){
         }
       }
     };
+    // user interface logic
+     $(document).ready(function() {
+     }
