@@ -4,3 +4,10 @@ var printNumbers = function(userNumber){
         userNumbers.push("ping");
       }else if (x % 5 === 0 && x % 3 !== 0 && x % 15 !== 0) {
         userNumbers.push("pong");
+      }else if (x % 3 === 0 && x % 5 === 0 && x % 15 === 0) {
+          userNumbers.push("ping-pong");
+        }else {
+          userNumbers.push(x);
+        }
+      }
+    };
