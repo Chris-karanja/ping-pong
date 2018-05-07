@@ -1,3 +1,8 @@
+.container-fluid{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
 .page-header{
   margin: 0;
   height: 350px;
@@ -11,3 +16,13 @@
     top: 150px;
     font-size: 36px;
   }
+  .rules{
+    padding: 50px;
+  }
+  .interface{
+  padding: 100px 10px;
+  padding-bottom: 50px;
+}
+#output{
+  display:none;
+}

@@ -1,51 +1,67 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
     <meta charset="utf-8">
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
-     <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
-    <title>Ping-pong</title>
+    <title>Ping-Pong</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+
     <div class="container-fluid">
 
-    <header class="page-header">
+      <header class="page-header">
         <span class="main-heading"><p>Ping-Pong</p></span>
       </header>
-      <section>
-        <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6">
-          <section class="rules">
-            <div class="container">
-      <h1>Let's Play!</h1>
-              <h2>Rules</h2>
-              <p>Ping Pong will count your:</p>
-              <ul>
-                <li>Numbers divisible by 3 become "ping"</li>
-                <li>Numbers divisible by 5 become "pong"</li>
-                <li>Numbers divisible by 3 and 5 become "ping-pong"</li>
-              </ul>
-          </section>
-        </div>
-        <div class="col-md-6">
-        <section class="interface">
-          <div class="container-fluid">
-            <form id="user-number">
-              <div class="form-group">
-                <label for="number">Enter your number here:</label>
-                <input id="number" type="text">
-                <button type="submit" class="btn">Ping-Pong!</button>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <section class="rules">
+              <div class="container">
+                <h1>Let's Play!</h1>
+                <h2>Rules</h2>
+                <p>Ping Pong will count your:</p>
+                <ul>
+                  <li>Numbers divisible by 3 become "ping"</li>
+                  <li>Numbers divisible by 5 become "pong"</li>
+                  <li>Numbers divisible by 3 and 5 become "ping-pong"</li>
+                </ul>
               </div>
-            </form>
+            </section>
           </div>
-        </section>
+
+          <div class="col-md-6">
+            <section class="interface">
+              <div class="container-fluid">
+                <form id="user-number">
+                  <div class="form-group">
+                    <label for="number">Enter your number here:</label>
+                    <input id="number" type="text">
+                    <button type="submit" class="btn">Ping-Pong!</button>
+                  </div>
+                </form>
+              </div>
+            </section>
+          </div>
+        </div>
       </div>
+
+      <div class="section">
+        <div class="container">
+        <h1>Your Output:</h1>
+        <div id="output">
+
+        </div>
+        </div>
+      </div>
+
+
+
     </div>
-  </div>
-      </div>
+
+
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/script.js"></script>
-
   </body>
 </html>
