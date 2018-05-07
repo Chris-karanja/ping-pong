@@ -13,4 +13,15 @@ var printNumbers = function(userNumber){
     };
     // user interface logic
      $(document).ready(function() {
-     }
+     $("form#user-number").submit(function(event) {
+         event.preventDefault();
+         var userNumber = parseInt($("input#number").val());
+         var result = printNumbers(userNumber);
+
+         $.each(userNumbers, function(index, value){
+         $("#output").append((index + 1) + ": " + value + '<br>');
+     });
+
+  $("#output").show();
+});
+});
