@@ -3,4 +3,4 @@ var printNumbers = function(userNumber){
     if(x % 3 === 0 && x % 5 != 0 && x % 15 !== 0){
         userNumbers.push("ping");
       }else if (x % 5 === 0 && x % 3 !== 0 && x % 15 !== 0) {
-        userNumbers.push("pong);
+        userNumbers.push("pong");
