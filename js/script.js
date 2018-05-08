@@ -17,6 +17,14 @@ var printNumbers = function(userNumber){
  $(document).ready(function() {
    $("form#user-number").submit(function(event) {
      event.preventDefault();
+
+      userNumber = [];
+
+      var myOutput = document.getElementById("output")
+       while (myOutput.firstchild) {
+         myOutput.removeChild(myOutput.firstChild);
+       }
+
      var userNumber = parseInt($("input#number").val());
      var result = printNumbers(userNumber);
 
