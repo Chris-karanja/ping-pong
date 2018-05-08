@@ -18,7 +18,7 @@ var printNumbers = function(userNumber){
    $("form#user-number").submit(function(event) {
      event.preventDefault();
 
-      userNumber = [];
+      userNumbers = [];
 
       var myOutput = document.getElementById("output")
        while (myOutput.firstchild) {
