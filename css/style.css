@@ -6,7 +6,9 @@
 .page-header{
   margin: 0;
   height: 350px;
-  background: #FF0000;
+  background-image: url("../images.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
 }
 
@@ -26,3 +28,10 @@
 #output{
   display:none;
 }
+.footer{
+  background-color:black;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: white;
+  }
