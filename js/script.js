@@ -21,7 +21,7 @@ var printNumbers = function(userNumber){
       userNumbers = [];
 
       var myOutput = document.getElementById("output")
-       while (myOutput.firstchild) {
+       while (myOutput.firstChild) {
          myOutput.removeChild(myOutput.firstChild);
        }
 
